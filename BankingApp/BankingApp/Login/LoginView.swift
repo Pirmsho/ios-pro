@@ -9,7 +9,6 @@ import Foundation
 import UIKit
 
 class LoginView: UIView {
-    
     let stackView = UIStackView()
     let usernameTextField = UITextField()
     let passwordTextField = UITextField()
@@ -34,6 +33,7 @@ extension LoginView {
     func style() {
         translatesAutoresizingMaskIntoConstraints = false
         backgroundColor = .secondarySystemBackground
+        
         
         // stackview styling
         stackView.translatesAutoresizingMaskIntoConstraints = false
@@ -69,7 +69,6 @@ extension LoginView {
         
         addSubview(stackView)
         
-        
         NSLayoutConstraint.activate([
             stackView.topAnchor.constraint(equalToSystemSpacingBelow: topAnchor, multiplier: 1),
             stackView.leadingAnchor.constraint(equalToSystemSpacingAfter: leadingAnchor, multiplier: 1),
@@ -95,11 +94,7 @@ extension LoginView: UITextFieldDelegate {
     
     // check input to end
     func textFieldShouldEndEditing(_ textField: UITextField) -> Bool {
-        if textField.text != "" {
-            return true
-        } else {
-            return false
-        }
+        return true
     }
     
     func textFieldDidEndEditing(_ textField: UITextField) {
