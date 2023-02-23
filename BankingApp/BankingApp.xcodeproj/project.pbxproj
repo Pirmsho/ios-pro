@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93402A6829A7B56D00C51FAD /* OnboardingContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93402A6729A7B56D00C51FAD /* OnboardingContainerVC.swift */; };
+		93402A6A29A7BFE500C51FAD /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93402A6929A7BFE500C51FAD /* OnboardingVC.swift */; };
 		93AF352129794813005399DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AF352029794813005399DF /* AppDelegate.swift */; };
 		93AF352529794813005399DF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AF352429794813005399DF /* LoginViewController.swift */; };
 		93AF352A29794814005399DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93AF352929794814005399DF /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		93402A6729A7B56D00C51FAD /* OnboardingContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerVC.swift; sourceTree = "<group>"; };
+		93402A6929A7BFE500C51FAD /* OnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
 		93AF351D29794813005399DF /* BankingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93AF352029794813005399DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93AF352429794813005399DF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +39,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		93402A6529A7B52E00C51FAD /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				93402A6729A7B56D00C51FAD /* OnboardingContainerVC.swift */,
+				93402A6929A7BFE500C51FAD /* OnboardingVC.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 		93AF351429794813005399DF = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +67,7 @@
 		93AF351F29794813005399DF /* BankingApp */ = {
 			isa = PBXGroup;
 			children = (
+				93402A6529A7B52E00C51FAD /* Onboarding */,
 				93AF35352979749D005399DF /* Login */,
 				93AF352029794813005399DF /* AppDelegate.swift */,
 				93AF3534297973FC005399DF /* Files */,
@@ -151,6 +165,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				93AF3537297974D2005399DF /* LoginView.swift in Sources */,
+				93402A6829A7B56D00C51FAD /* OnboardingContainerVC.swift in Sources */,
+				93402A6A29A7BFE500C51FAD /* OnboardingVC.swift in Sources */,
 				93AF352529794813005399DF /* LoginViewController.swift in Sources */,
 				93AF352129794813005399DF /* AppDelegate.swift in Sources */,
 			);

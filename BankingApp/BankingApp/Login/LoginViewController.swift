@@ -135,4 +135,12 @@ extension LoginViewController {
         errorMessageLabel.isHidden = false
         errorMessageLabel.text = message
     }
+    
+    private func printAnything(withMessage message: String) {
+        let message = message
+    }
+    
+    private func printThisMessage(withMesage message: String) {
+        print(message)
+    }
 }
